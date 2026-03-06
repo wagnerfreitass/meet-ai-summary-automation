@@ -11,7 +11,7 @@ A automação detecta gravações de reuniões no Google Drive, realiza a transc
 
 O objetivo deste workflow é eliminar o trabalho manual de revisar reuniões longas e produzir automaticamente um **resumo objetivo com pontos principais e tarefas identificadas**.
 
-Assim que uma gravação de reunião é salva no Google Drive, o fluxo executa automaticamente todo o processo de análise e geração do documento.
+Assim que uma gravação de reunião é salva no Google Drive, o fluxo executa automaticamente todo o processo de análise e geração do documento de resumo e o envia por email.
 
 ---
 
