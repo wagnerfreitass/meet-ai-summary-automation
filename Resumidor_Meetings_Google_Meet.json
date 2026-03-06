@@ -60,7 +60,7 @@
         "triggerOn": "specificFolder",
         "folderToWatch": {
           "__rl": true,
-          "value": "170FFzd14pxOePwI26gFOJ5ATUs7VYcJZ",
+          "value": "PASTA_GOOGLE_DRIVE_ID",
           "mode": "list",
           "cachedResultName": "Meet Recordings",
           "cachedResultUrl": "https://drive.google.com/drive/folders/170FFzd14pxOePwI26gFOJ5ATUs7VYcJZ"
@@ -79,12 +79,7 @@
       ],
       "typeVersion": 1,
       "alwaysOutputData": true,
-      "credentials": {
-        "googleDriveOAuth2Api": {
-          "id": "ClFVY8il09OkSVzi",
-          "name": "Google Drive - Wagner"
-        }
-      }
+
     },
     {
       "parameters": {
@@ -106,12 +101,7 @@
         288
       ],
       "typeVersion": 1,
-      "credentials": {
-        "googlePalmApi": {
-          "id": "pQ7vLzDGhHsWgyat",
-          "name": "Google Gemini - Wagner"
-        }
-      }
+    
     },
     {
       "parameters": {
@@ -143,12 +133,7 @@
         640
       ],
       "typeVersion": 1,
-      "credentials": {
-        "googlePalmApi": {
-          "id": "pQ7vLzDGhHsWgyat",
-          "name": "Google Gemini - Wagner"
-        }
-      }
+    
     },
     {
       "parameters": {
@@ -163,12 +148,6 @@
         672
       ],
       "typeVersion": 2,
-      "credentials": {
-        "googleDocsOAuth2Api": {
-          "id": "sLXD4LQPWrLUV9zK",
-          "name": "Google Docs account"
-        }
-      }
     },
     {
       "parameters": {
@@ -335,7 +314,7 @@
     },
     {
       "parameters": {
-        "sendTo": "wagner.freitas2508@gmail.com",
+        "sendTo": "seu-email@empresa.com",
         "subject": "=Resumo da Reunião - {{ $now.format(\"dd/MM/yyyy\") }}",
         "message": "Segue em anexo o resumo da reunião.",
         "options": {
@@ -519,8 +498,6 @@
   },
   "versionId": "f56169d5-581e-4c6a-9e3f-a9892d8b65e9",
   "meta": {
-    "templateCredsSetupCompleted": true,
-    "instanceId": "4dbfd141014d94107c5456e99747f15ddb05127d7891ea633a90a28270098bd5"
   },
   "id": "SunOqX8yFxEtZCbO",
   "tags": []
