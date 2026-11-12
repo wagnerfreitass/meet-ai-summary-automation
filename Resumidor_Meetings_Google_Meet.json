@@ -61,9 +61,7 @@
         "folderToWatch": {
           "__rl": true,
           "value": "PASTA_GOOGLE_DRIVE_ID",
-          "mode": "list",
-          "cachedResultName": "Meet Recordings",
-          "cachedResultUrl": "https://drive.google.com/drive/folders/170FFzd14pxOePwI26gFOJ5ATUs7VYcJZ"
+          "mode": "list"
         },
         "event": "fileCreated",
         "options": {
@@ -78,8 +76,7 @@
         288
       ],
       "typeVersion": 1,
-      "alwaysOutputData": true,
-
+      "alwaysOutputData": true
     },
     {
       "parameters": {
@@ -100,8 +97,7 @@
         2576,
         288
       ],
-      "typeVersion": 1,
-    
+      "typeVersion": 1
     },
     {
       "parameters": {
@@ -132,12 +128,11 @@
         2640,
         640
       ],
-      "typeVersion": 1,
-    
+      "typeVersion": 1
     },
     {
       "parameters": {
-        "folderId": "170FFzd14pxOePwI26gFOJ5ATUs7VYcJZ",
+        "folderId": "PASTA_GOOGLE_DRIVE_ID",
         "title": "={{ $('Executa quando uma meeting é finalizada').item.json.name.replace(/\\.mp4$/, '') }}"
       },
       "id": "7ebc6cea-7312-4820-b5ea-0c71b1c85cd1",
@@ -147,7 +142,7 @@
         2944,
         672
       ],
-      "typeVersion": 2,
+      "typeVersion": 2
     },
     {
       "parameters": {
@@ -173,13 +168,7 @@
         3472,
         288
       ],
-      "typeVersion": 4.2,
-      "credentials": {
-        "googleDocsOAuth2Api": {
-          "id": "sLXD4LQPWrLUV9zK",
-          "name": "Google Docs account"
-        }
-      }
+      "typeVersion": 4.2
     },
     {
       "parameters": {
@@ -263,13 +252,7 @@
         288
       ],
       "typeVersion": 3,
-      "retryOnFail": true,
-      "credentials": {
-        "googleDriveOAuth2Api": {
-          "id": "ClFVY8il09OkSVzi",
-          "name": "Google Drive - Wagner"
-        }
-      }
+      "retryOnFail": true
     },
     {
       "parameters": {
@@ -332,14 +315,7 @@
         288
       ],
       "id": "2b244a9d-95e9-49af-a795-9ab77ccae69e",
-      "name": "Send a message",
-      "webhookId": "021b6106-fd38-416c-8a1e-4f1f1bae4114",
-      "credentials": {
-        "gmailOAuth2": {
-          "id": "5kyXlJMQep2o8Tei",
-          "name": "Gmail - Wagner"
-        }
-      }
+      "name": "Send a message"
     },
     {
       "parameters": {
@@ -368,13 +344,7 @@
         288
       ],
       "id": "c7e6fb4e-ebc2-4abe-8b87-3c9b4c1f14ac",
-      "name": "Download file",
-      "credentials": {
-        "googleDriveOAuth2Api": {
-          "id": "ClFVY8il09OkSVzi",
-          "name": "Google Drive - Wagner"
-        }
-      }
+      "name": "Download file"
     }
   ],
   "pinData": {},
@@ -490,15 +460,11 @@
       ]
     }
   },
-  "active": true,
+  "active": false,
   "settings": {
     "executionOrder": "v1",
     "binaryMode": "separate",
     "availableInMCP": false
   },
-  "versionId": "f56169d5-581e-4c6a-9e3f-a9892d8b65e9",
-  "meta": {
-  },
-  "id": "SunOqX8yFxEtZCbO",
   "tags": []
 }
