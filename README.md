@@ -67,15 +67,15 @@ O PDF com o resumo da reunião é enviado automaticamente por e-mail.
 
 ### Fluxo completo da automação
 
-![Fluxo da Automação](images/fluxo-automacao.png)
+![Fluxo da Automação](images/fluxo_automacao.jpeg)
 
 ### E-mail enviado automaticamente
 
-![Email enviado](images/email-enviado.png)
+![Email enviado](images/email_enviado.jpeg)
 
 ### PDF gerado com resumo da reunião
 
-![PDF gerado](images/pdf-gerado.png)
+![PDF gerado](images/pdf_gerado.jpeg)
 
 ---
 
